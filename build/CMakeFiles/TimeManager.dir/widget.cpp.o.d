@@ -2,12 +2,10 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/qt_code/day0623/TimeManager/widget.cpp \
  /usr/include/stdc-predef.h \
  /home/wangwu/qt_code/day0623/TimeManager/widget.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QWidget \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qwidget.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtguiglobal.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qglobal.h \
- /usr/include/c++/14/type_traits \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
+ /usr/include/c++/14/limits \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,7 +17,9 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h \
  /usr/include/c++/14/pstl/pstl_config.h \
- /usr/include/c++/14/bits/version.h /usr/include/c++/14/cstddef \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qglobal.h \
+ /usr/include/c++/14/type_traits /usr/include/c++/14/bits/version.h \
+ /usr/include/c++/14/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
  /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/move.h \
@@ -56,7 +56,6 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtversion.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtypeinfo.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontainerfwd.h \
- /usr/include/c++/14/limits \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qsysinfo.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlogging.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qflags.h \
@@ -169,13 +168,8 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtresource.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qttranslation.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qversiontagging.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtgui-config.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtguiexports.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qwindowdefs.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobjectdefs.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qnamespace.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvariant.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcompare.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstdlibdetection.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcomparehelpers.h \
@@ -204,13 +198,20 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/array \
  /usr/include/c++/14/compare \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmetatype.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearray.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qrefcount.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qnamespace.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmetamacros.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
- /usr/include/c++/14/memory \
- /usr/include/c++/14/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
- /usr/include/c++/14/bits/shared_ptr.h /usr/include/c++/14/iosfwd \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydata.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydatapointer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydataops.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qxptype_traits.h \
+ /usr/include/c++/14/cstring /usr/include/c++/14/iterator \
+ /usr/include/c++/14/bits/stream_iterator.h /usr/include/c++/14/iosfwd \
  /usr/include/c++/14/bits/stringfwd.h /usr/include/c++/14/bits/postypes.h \
  /usr/include/c++/14/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
@@ -219,8 +220,12 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/14/bits/shared_ptr_base.h \
- /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/streambuf_iterator.h \
+ /usr/include/c++/14/streambuf /usr/include/c++/14/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h \
+ /usr/include/c++/14/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/cctype \
+ /usr/include/ctype.h /usr/include/c++/14/bits/ios_base.h \
  /usr/include/c++/14/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h \
@@ -246,31 +251,6 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/14/ext/concurrence.h \
- /usr/include/c++/14/bits/shared_ptr_atomic.h \
- /usr/include/c++/14/backward/auto_ptr.h \
- /usr/include/c++/14/pstl/glue_memory_defs.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobject.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstring.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qchar.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringview.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearray.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qrefcount.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydata.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qpair.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydatapointer.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydataops.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontainertools_impl.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qxptype_traits.h \
- /usr/include/c++/14/cstring /usr/include/c++/14/iterator \
- /usr/include/c++/14/bits/stream_iterator.h \
- /usr/include/c++/14/bits/streambuf_iterator.h \
- /usr/include/c++/14/streambuf /usr/include/c++/14/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h \
- /usr/include/c++/14/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/cctype \
- /usr/include/ctype.h /usr/include/c++/14/bits/ios_base.h \
  /usr/include/c++/14/bits/locale_classes.h /usr/include/c++/14/string \
  /usr/include/c++/14/bits/char_traits.h \
  /usr/include/c++/14/bits/ostream_insert.h \
@@ -294,6 +274,16 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/c++/14/system_error \
  /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
  /usr/include/c++/14/stdexcept /usr/include/c++/14/bits/streambuf.tcc \
+ /usr/include/c++/14/memory \
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/ext/concurrence.h \
+ /usr/include/c++/14/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14/backward/auto_ptr.h \
+ /usr/include/c++/14/pstl/glue_memory_defs.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20memory.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \
@@ -301,6 +291,14 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearrayview.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringfwd.h \
  /usr/include/c++/14/stdlib.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatastream.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qscopedpointer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiodevicebase.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfloat16.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qhashfunctions.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstring.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qchar.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringview.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringliteral.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringalgorithms.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlatin1stringview.h \
@@ -310,38 +308,76 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringbuilder.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringconverter.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringconverter_base.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlist.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qhashfunctions.h \
  /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
  /usr/include/c++/14/pstl/glue_numeric_defs.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiterator.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearraylist.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringlist.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qalgorithms.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringmatcher.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qscopedpointer.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmetatype.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatastream.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiodevicebase.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfloat16.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmath.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qalgorithms.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtformat_impl.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiterable.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmetacontainer.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontainerinfo.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtaggedpointer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qscopeguard.h \
  /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/list.tcc /usr/include/c++/14/map \
  /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_map.h \
  /usr/include/c++/14/bits/stl_multimap.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobject_impl.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbindingstorage.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdebug.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontiguouscache.h \
+ /usr/include/c++/14/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qsharedpointer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qshareddata.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
  /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
  /usr/include/c++/14/ratio /usr/include/c++/14/ctime \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmargins.h \
+ /usr/include/c++/14/set /usr/include/c++/14/bits/stl_set.h \
+ /usr/include/c++/14/bits/stl_multiset.h \
+ /usr/include/c++/14/unordered_set \
+ /usr/include/c++/14/bits/unordered_set.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlist.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiterator.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearraylist.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringlist.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qstringmatcher.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmap.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qshareddata_impl.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qset.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qhash.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q23utility.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20utility.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobject.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qobject_impl.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbindingstorage.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasictimer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qeventloop.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdeadlinetimer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QWidget \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qwidget.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtguiglobal.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtgui-config.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtguiexports.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmargins.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qaction.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qkeysequence.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qicon.h \
@@ -353,15 +389,6 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qcolor.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qrgb.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qrgba64.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qshareddata.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qimage.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qpixelformat.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtransform.h \
@@ -371,22 +398,6 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /usr/include/c++/14/cassert \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qline.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvariant.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdebug.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontiguouscache.h \
- /usr/include/c++/14/climits \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qsharedpointer.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
- /usr/include/c++/14/set /usr/include/c++/14/bits/stl_set.h \
- /usr/include/c++/14/bits/stl_multiset.h \
- /usr/include/c++/14/unordered_set \
- /usr/include/c++/14/bits/unordered_set.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmap.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qshareddata_impl.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qset.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qhash.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qpalette.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qbrush.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfont.h \
@@ -397,10 +408,8 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qcursor.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qbitmap.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h \
  /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/include/ui_widget.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDate \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QVariant \
@@ -409,11 +418,6 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qapplication.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcoreapplication.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcoreevent.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasictimer.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qeventloop.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdeadlinetimer.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qnativeinterface.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qguiapplication.h \

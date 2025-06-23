@@ -399,6 +399,11 @@ CMakeFiles/TimeManager.dir/main.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qguiapplication_platform.h \
  /home/wangwu/qt_code/day0623/TimeManager/widget.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QWidget \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qwidget.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qaction.h \
@@ -412,6 +417,5 @@ CMakeFiles/TimeManager.dir/main.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfontinfo.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfontvariableaxis.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h

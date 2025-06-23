@@ -1,6 +1,8 @@
 /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/EWIEGA46WW/moc_widget.cpp: /home/wangwu/qt_code/day0623/TimeManager/widget.h \
   /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/moc_predefs.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h \
@@ -8,6 +10,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20type_traits.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20utility.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q23utility.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qanystringview.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydata.h \
@@ -17,6 +20,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qatomic.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasictimer.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbindingstorage.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearray.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
@@ -37,8 +41,11 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatastream.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdebug.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qendian.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qeventloop.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qexceptionhandling.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qflags.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfloat16.h \
@@ -113,6 +120,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtformat_impl.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmetamacros.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtnoop.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \

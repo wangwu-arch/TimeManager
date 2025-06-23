@@ -1,8 +1,10 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QWidget>
 #include <QDateTime>
+#include <QTimer>
+#include <QWidget>
+#include <QElapsedTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -33,8 +35,11 @@ private slots:
     void on_btnSetCycle_clicked();
 
     void on_calendarWidget_selectionChanged();
+    void updateCycleTime();
 
 private:
     Ui::Widget *ui;
+    QTimer *timer;
+    QElapsedTimer cycleTime;
 };
 #endif  // WIDGET_H

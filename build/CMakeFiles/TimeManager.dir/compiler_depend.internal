@@ -4,6 +4,8 @@
 CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
  /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/mocs_compilation.cpp
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20algorithm.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h
@@ -13,6 +15,7 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20utility.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q23type_traits.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q23utility.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qabstracteventdispatcher.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qalgorithms.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qanystringview.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qarraydata.h
@@ -22,6 +25,7 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qatomic.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qatomic_cxx11.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasicatomic.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbasictimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbindingstorage.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearray.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearrayalgorithms.h
@@ -42,8 +46,11 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdarwinhelpers.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatastream.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdeadlinetimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdebug.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qelapsedtimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qendian.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qeventloop.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qexceptionhandling.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qflags.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qfloat16.h
@@ -118,6 +125,7 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtenvironmentvariables.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtformat_impl.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmetamacros.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmocconstants.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmochelpers.h
@@ -471,6 +479,8 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o
 CMakeFiles/TimeManager.dir/main.cpp.o
  /home/wangwu/qt_code/day0623/TimeManager/main.cpp
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h
@@ -592,6 +602,7 @@ CMakeFiles/TimeManager.dir/main.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtenvironmentvariables.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtformat_impl.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmetamacros.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtnoop.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtpreprocessorsupport.h
@@ -948,6 +959,8 @@ CMakeFiles/TimeManager.dir/widget.cpp.o
  /home/wangwu/qt_code/day0623/TimeManager/widget.cpp
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDate
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QElapsedTimer
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QTimer
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QVariant
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h
@@ -1072,6 +1085,7 @@ CMakeFiles/TimeManager.dir/widget.cpp.o
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtenvironmentvariables.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtextstream.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtformat_impl.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimer.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimezone.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmetamacros.h
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtnoop.h

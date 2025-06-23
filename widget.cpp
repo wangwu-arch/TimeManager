@@ -4,6 +4,10 @@
 
 Widget::Widget(QWidget *parent) : QWidget(parent), ui(new Ui::Widget) {
     ui->setupUi(this);
+    timer = new QTimer(this);
+    timer->setInterval(1000);
+    timer->stop();
+    connect(timer, &QTimer::timeout, this, &Widget::updateCycleTime);
 }
 
 Widget::~Widget() {
@@ -51,15 +55,33 @@ void Widget::on_btnSetDateTime_clicked() {
 }
 
 void Widget::on_btnStart_clicked() {
+    timer->start();
+    ui->btnStart->setEnabled(false);
+    ui->btnStop->setEnabled(true);
+    ui->btnSetCycle->setEnabled(false);
+    cycleTime.start();
 }
 
 void Widget::on_btnStop_clicked() {
 }
 
 void Widget::on_btnSetCycle_clicked() {
+    timer->setInterval(ui->spinBox->value());
 }
 
 void Widget::on_calendarWidget_selectionChanged() {
     QDate selectedDate = ui->calendarWidget->selectedDate();
     ui->editDate->setText(selectedDate.toString("yyyy年MM月dd日"));
+}
+
+void Widget::updateCycleTime() {
+    ui->lcdHour->display(QTime::currentTime().hour());
+    ui->lcdMin->display(QTime::currentTime().minute());
+    ui->lcdSec->display(QTime::currentTime().second());
+    int value=ui->progressBar->value();
+    value++;
+    if (value > ui->progressBar->maximum()) {
+        value = ui->progressBar->minimum();
+    }
+    ui->progressBar->setValue(value);
 }

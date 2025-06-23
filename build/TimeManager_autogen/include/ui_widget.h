@@ -69,9 +69,9 @@ public:
     QPushButton *btnSetCycle;
     QProgressBar *progressBar;
     QHBoxLayout *horizontalLayout_2;
-    QLCDNumber *lcdNumber;
-    QLCDNumber *lcdNumber_2;
-    QLCDNumber *lcdNumber_3;
+    QLCDNumber *lcdHour;
+    QLCDNumber *lcdMin;
+    QLCDNumber *lcdSec;
     QSpacerItem *verticalSpacer;
     QPushButton *btnExit;
     QSpacerItem *horizontalSpacer;
@@ -245,7 +245,7 @@ public:
         progressBar->setFocusPolicy(Qt::FocusPolicy::NoFocus);
         progressBar->setContextMenuPolicy(Qt::ContextMenuPolicy::ActionsContextMenu);
         progressBar->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
-        progressBar->setValue(21);
+        progressBar->setValue(0);
         progressBar->setAlignment(Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter);
         progressBar->setOrientation(Qt::Orientation::Horizontal);
         progressBar->setInvertedAppearance(false);
@@ -255,23 +255,24 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
-        lcdNumber = new QLCDNumber(groupBox_2);
-        lcdNumber->setObjectName("lcdNumber");
-        lcdNumber->setProperty("intValue", QVariant(10));
+        lcdHour = new QLCDNumber(groupBox_2);
+        lcdHour->setObjectName("lcdHour");
+        lcdHour->setProperty("intValue", QVariant(0));
 
-        horizontalLayout_2->addWidget(lcdNumber);
+        horizontalLayout_2->addWidget(lcdHour);
 
-        lcdNumber_2 = new QLCDNumber(groupBox_2);
-        lcdNumber_2->setObjectName("lcdNumber_2");
-        lcdNumber_2->setProperty("intValue", QVariant(26));
+        lcdMin = new QLCDNumber(groupBox_2);
+        lcdMin->setObjectName("lcdMin");
+        lcdMin->setProperty("intValue", QVariant(0));
 
-        horizontalLayout_2->addWidget(lcdNumber_2);
+        horizontalLayout_2->addWidget(lcdMin);
 
-        lcdNumber_3 = new QLCDNumber(groupBox_2);
-        lcdNumber_3->setObjectName("lcdNumber_3");
-        lcdNumber_3->setProperty("intValue", QVariant(35));
+        lcdSec = new QLCDNumber(groupBox_2);
+        lcdSec->setObjectName("lcdSec");
+        lcdSec->setSmallDecimalPoint(false);
+        lcdSec->setProperty("intValue", QVariant(0));
 
-        horizontalLayout_2->addWidget(lcdNumber_3);
+        horizontalLayout_2->addWidget(lcdSec);
 
 
         gridLayout_2->addLayout(horizontalLayout_2, 2, 0, 1, 3);
