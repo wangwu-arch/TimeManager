@@ -16,6 +16,21 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_btnGetDateTime_clicked();
+
+    void on_btnSetTime_clicked();
+
+    void on_btnSetDate_clicked();
+
+    void on_btnSetDateTime_clicked();
+
+    void on_btnStart_clicked();
+
+    void on_btnStop_clicked();
+
+    void on_btnSetCycle_clicked();
+
 private:
     Ui::Widget *ui;
 };
