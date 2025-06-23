@@ -11,6 +11,13 @@ Widget::~Widget() {
 }
 
 void Widget::on_btnGetDateTime_clicked() {
+    QDateTime currentDateTime = QDateTime::currentDateTime();
+    ui->dateEdit->setDate(currentDateTime.date());
+    ui->editSetDate->setText(currentDateTime.date().toString("yyyy-MM-dd"));
+    ui->timeEdit->setTime(currentDateTime.time());
+    ui->editSetTime->setText(currentDateTime.time().toString("hh:mm:ss"));
+    ui->dateTimeEdit->setDateTime(currentDateTime);
+    ui->editSetDateTime->setText(currentDateTime.toString("yyyy-MM-dd hh:mm:ss"));
 }
 
 void Widget::on_btnSetTime_clicked() {

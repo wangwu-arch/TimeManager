@@ -1,5 +1,6 @@
 /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/EWIEGA46WW/moc_widget.cpp: /home/wangwu/qt_code/day0623/TimeManager/widget.h \
   /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/moc_predefs.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h \
@@ -21,6 +22,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearraylist.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qchar.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcompare.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcompare_impl.h \
@@ -34,6 +36,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcontiguouscache.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatastream.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdebug.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qendian.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qexceptionhandling.h \
@@ -53,6 +56,7 @@
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlatin1stringview.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qline.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlist.h \
+  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlogging.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmalloc.h \
   /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qmap.h \

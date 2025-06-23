@@ -411,4 +411,7 @@ CMakeFiles/TimeManager.dir/main.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfontmetrics.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfontinfo.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qfontvariableaxis.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h

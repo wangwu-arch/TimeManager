@@ -397,7 +397,12 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qcursor.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qbitmap.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
  /home/wangwu/qt_code/day0623/TimeManager/build/TimeManager_autogen/include/ui_widget.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDate \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QVariant \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qvariant.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QApplication \
@@ -413,6 +418,55 @@ CMakeFiles/TimeManager.dir/widget.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qguiapplication.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qinputmethod.h \
- /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QCalendarWidget \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qcalendarwidget.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qwidget.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QDateEdit \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qdatetimeedit.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtimezone.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qvalidator.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qregularexpression.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QDateTimeEdit \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QFormLayout \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qformlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QLayout \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlayoutitem.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QGridLayout \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QGroupBox \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qgroupbox.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qframe.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QHBoxLayout \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QLCDNumber \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlcdnumber.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QLabel \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlabel.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qpicture.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qiodevice.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtextdocument.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qurl.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QLineEdit \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlineedit.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtextcursor.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtextformat.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qpen.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qtextoption.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QProgressBar \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qprogressbar.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QPushButton \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qabstractbutton.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QSpacerItem \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qlayoutitem.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QSpinBox \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qspinbox.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QTimeEdit \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/QWidget

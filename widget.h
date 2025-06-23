@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QDateTime>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

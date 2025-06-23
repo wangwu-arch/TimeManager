@@ -398,6 +398,10 @@ CMakeFiles/TimeManager.dir/TimeManager_autogen/mocs_compilation.cpp.o: \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qcursor.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtGui/qbitmap.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/QDateTime \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qdatetime.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qcalendar.h \
+ /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qlocale.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmochelpers.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/qtmocconstants.h \
  /home/wangwu/Qt/6.9.1/gcc_64/include/QtCore/q20algorithm.h \
