@@ -41,6 +41,13 @@ void Widget::on_btnSetDate_clicked() {
 }
 
 void Widget::on_btnSetDateTime_clicked() {
+    QString strDateTime = ui->editSetDateTime->text();
+    QDateTime dateTime = QDateTime::fromString(strDateTime, "yyyy-MM-dd hh:mm:ss");
+    if (dateTime.isValid()) {
+        ui->dateTimeEdit->setDateTime(dateTime);
+    } else {
+        ui->editSetDateTime->setText("Invalid date-time format");
+    }
 }
 
 void Widget::on_btnStart_clicked() {
