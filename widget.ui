@@ -202,7 +202,7 @@
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLabel" name="label_6">
+       <widget class="QLabel" name="labElapsTime">
         <property name="text">
          <string>流逝时间</string>
         </property>

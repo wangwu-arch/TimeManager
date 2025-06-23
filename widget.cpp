@@ -63,6 +63,15 @@ void Widget::on_btnStart_clicked() {
 }
 
 void Widget::on_btnStop_clicked() {
+    timer->stop();
+    ui->btnStart->setEnabled(true);
+    ui->btnStop->setEnabled(false);
+    ui->btnSetCycle->setEnabled(true);
+    int elapsed = cycleTime.elapsed();
+    int sec = elapsed / 1000;
+    int millisec = elapsed % 1000;
+    QString elapsedTime = QString::asprintf("流逝的时间是：%d秒 %d毫秒", sec, millisec);
+    ui->labElapsTime->setText(elapsedTime);
 }
 
 void Widget::on_btnSetCycle_clicked() {
