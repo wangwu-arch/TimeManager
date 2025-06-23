@@ -26,12 +26,18 @@ void Widget::on_btnSetTime_clicked() {
     if (time.isValid()) {
         ui->timeEdit->setTime(time);
     } else {
-        ui->timeEdit->setTime(QTime());
         ui->editSetTime->setText("Invalid time format");
     }
 }
 
 void Widget::on_btnSetDate_clicked() {
+    QString strDate = ui->editSetDate->text();
+    QDate date = QDate::fromString(strDate, "yyyy-MM-dd");
+    if (date.isValid()) {
+        ui->dateEdit->setDate(date);
+    } else {
+        ui->editSetDate->setText("Invalid date format");
+    }
 }
 
 void Widget::on_btnSetDateTime_clicked() {
