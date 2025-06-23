@@ -32,6 +32,8 @@ private slots:
 
     void on_btnSetCycle_clicked();
 
+    void on_calendarWidget_selectionChanged();
+
 private:
     Ui::Widget *ui;
 };

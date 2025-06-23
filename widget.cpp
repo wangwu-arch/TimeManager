@@ -58,3 +58,8 @@ void Widget::on_btnStop_clicked() {
 
 void Widget::on_btnSetCycle_clicked() {
 }
+
+void Widget::on_calendarWidget_selectionChanged() {
+    QDate selectedDate = ui->calendarWidget->selectedDate();
+    ui->editDate->setText(selectedDate.toString("yyyy年MM月dd日"));
+}
