@@ -21,6 +21,14 @@ void Widget::on_btnGetDateTime_clicked() {
 }
 
 void Widget::on_btnSetTime_clicked() {
+    QString strTime = ui->editSetTime->text();
+    QTime time = QTime::fromString(strTime, "hh:mm:ss");
+    if (time.isValid()) {
+        ui->timeEdit->setTime(time);
+    } else {
+        ui->timeEdit->setTime(QTime());
+        ui->editSetTime->setText("Invalid time format");
+    }
 }
 
 void Widget::on_btnSetDate_clicked() {
