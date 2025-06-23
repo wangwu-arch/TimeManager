@@ -1,0 +1,9 @@
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/TimeManager.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/edit_cache.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/list_install_components.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/local.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/strip.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/TimeManager_autogen_timestamp_deps.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/TimeManager_autogen.dir

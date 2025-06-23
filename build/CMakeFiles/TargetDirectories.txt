@@ -1,0 +1,9 @@
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/TimeManager.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/edit_cache.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/rebuild_cache.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/list_install_components.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/install.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/install/local.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/install/strip.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/TimeManager_autogen_timestamp_deps.dir
+/home/wangwu/qt_code/day0623/TimeManager/build/CMakeFiles/TimeManager_autogen.dir

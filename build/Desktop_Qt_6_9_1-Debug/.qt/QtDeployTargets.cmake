@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_TimeManager_FILE /home/wangwu/qt_code/day0623/TimeManager/build/Desktop_Qt_6_9_1-Debug/TimeManager)
+set(__QT_DEPLOY_TARGET_TimeManager_TYPE EXECUTABLE)
